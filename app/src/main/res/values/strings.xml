@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TanamanKu</string>
+    <string name="nama_tanaman">Nama Tanaman</string>
+    <string name="detail_tanaman">Detail Tanaman</string>
+    <string name="about">About</string>
+    <string name="namaku">Refanda Surya Saputra</string>
+    <string name="emailku">refandasuryasaputra@gmail.com</string>
+    <string name="tanamanku">TanamanKU</string>
+    <string name="nama_ilmiah">Nama Ilmiah</string>
+    <string name="share">Share</string>
+</resources>

@@ -7,6 +7,13 @@ public class Tanaman {
     private String detailTanaman;
     private int fotoTanaman;
 
+    public Tanaman(String namaTanaman, String namaIlmiah, String detailTanaman, int fotoTanaman) {
+        this.namaTanaman = namaTanaman;
+        this.namaIlmiah = namaIlmiah;
+        this.detailTanaman = detailTanaman;
+        this.fotoTanaman = fotoTanaman;
+    }
+
     public String getNamaTanaman() {
         return namaTanaman;
     }

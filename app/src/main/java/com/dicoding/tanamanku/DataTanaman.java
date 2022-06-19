@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 public class DataTanaman {
 
+
+
     private static String[] namaTanaman = {
             "Anggrek",
             "Janda Bolong",

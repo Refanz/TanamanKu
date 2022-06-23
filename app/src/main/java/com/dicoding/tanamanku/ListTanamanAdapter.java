@@ -69,13 +69,10 @@ public class ListTanamanAdapter extends RecyclerView.Adapter<ListTanamanAdapter.
 
     public void setOnItemClickCallBack(OnItemClickCallBack onItemClickCallBack){
         this.onItemClickCallBack = onItemClickCallBack;
-
     }
 
     public interface OnItemClickCallBack{
         void onItemClicked(Tanaman data);
     }
-
-
 
 }

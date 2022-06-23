@@ -8,11 +8,19 @@ public class Util {
     private static ArrayList<Tanaman> favoritePlants;
 
     public Util() {
-        allPlants = new ArrayList<>();
-        favoritePlants = new ArrayList<>();
+        if (allPlants == null) {
+            allPlants = new ArrayList<>();
+            initAllPlants();
+        }
+
+        if (favoritePlants == null) {
+            favoritePlants = new ArrayList<>();
+        }
     }
 
     public void initAllPlants() {
+        int[] idTanaman = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+
         String[] namaTanaman = {
                 "Anggrek",
                 "Janda Bolong",
@@ -66,10 +74,9 @@ public class Util {
         };
 
         for (int i = 0; i < namaTanaman.length; i++) {
-            Tanaman tanaman = new Tanaman(namaTanaman[i], namaIlmiah[i], detailTanaman[i], fotoTanaman[i]);
+            Tanaman tanaman = new Tanaman(idTanaman[i], namaTanaman[i], namaIlmiah[i], detailTanaman[i], fotoTanaman[i]);
             allPlants.add(tanaman);
         }
-
     }
 
     public static ArrayList<Tanaman> getAllPlants () {

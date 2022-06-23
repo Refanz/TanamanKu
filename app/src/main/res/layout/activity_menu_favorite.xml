@@ -10,6 +10,7 @@
         android:id="@+id/rv_favorite"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layoutAnimation="@anim/layout_animation"
         tools:listitem="@layout/list_tanaman"/>
 
 </LinearLayout>
